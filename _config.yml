@@ -3,9 +3,9 @@
 # Site wide configuration
 ####################################
 #
-title: Leonids
-email:
-description: A simple and awesome blog theme powered by jekyll.
+title: Wonderland
+email: xil154@pitt.edu
+description: Test!
 url: # the base hostname & protocol for your site
 
 
@@ -14,7 +14,7 @@ url: # the base hostname & protocol for your site
 # Jekyll configuration
 ####################################
 #
-timezone:          Europe/Paris
+timezone:          America/Newyork
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
@@ -33,13 +33,13 @@ kramdown:
 ####################################
 #
 owner:
-  name: Leonids
-  avatar: leonids-logo.png
-  job: "A jekyll theme"
-  bio: "A simple and awesome blog theme powered by jekyll."
-  email:
+  name: XinLai
+  avatar: 
+  job: "Wonderland"
+  bio: "A simple and awesome blog powered by jekyll."
+  email: xil154@pitt.edu
   disqus-shortname:
-  twitter: #username
+  twitter: BarbaraaaLai
   facebook: #username
   google:
     plus: #username
@@ -48,11 +48,11 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
+  github: vagarii
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: #username
   xing: #username
-  instagram: #username
+  instagram: #xinlai0908
   lastfm: #username
   tumblr: #username
   pinterest: #username
