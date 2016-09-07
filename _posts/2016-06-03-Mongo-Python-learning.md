@@ -3,6 +3,7 @@ layout: post
 title: Mongo Python learning Notes
 excerpt: "Learn everything needed to know to get started building a MongoDB-based app and including a brief Python introduction"
 categories: [tutorial, code]
+link: https://www.mongodb.com/
 comments: true
 ---
 ## **1. Print**
