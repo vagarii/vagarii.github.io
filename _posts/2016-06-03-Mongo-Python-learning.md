@@ -7,7 +7,7 @@ comments: true
 ---
 ## **1. Print**
 
-![Image1](／img/mongo1.png)
+![Image1](/img/mongo1.png)
 
 ## **2. Lists**
 
