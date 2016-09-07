@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Console learning
-excerpt: "Learn everything needed to know to get started building a MongoDB-based app and including a brief Python introduction"
+excerpt: "Learn to be familiar with the basics of the console"
 categories: [tutorial]
 comments: true
 image:
