@@ -7,17 +7,17 @@ comments: true
 ---
 ## **1. Print**
 
-![Image1](img/mongo1.png)
+![Image1](img/mongo1)
 
 ## **2. Lists**
 
-![Image2](img/mongo2.png)
+![Image2](img/mongo2)
 
 ## **3. Lists, Inclusion**
 
-![Image3](img/mongo3.png)
+![Image3](img/mongo3)
 
 False: Be careful about the space!
 {: .notice}
 
-![Image4](img/mongo3.png)
+![Image4](img/mongo4)
