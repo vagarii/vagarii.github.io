@@ -1,14 +1,30 @@
 ---
 layout: post
-title: "Sample Link Post"
-excerpt: "Try click on the link icon."
-categories: [link post]
-link: http://renyuanz.github.io
-share: true
+title: Console learning
+excerpt: "Learn everything needed to know to get started building a MongoDB-based app and including a brief Python introduction"
+categories: [tutorial]
+link: https://teamtreehouse.com/library/console-foundations
+comments: true
+image:
+![Image](/img/con.png)
 ---
+## **1. POSIX :**
+* Unix: a operating system invented in
+* GNU/Linux: open source dependences
+* Darwin BSD Solaris
 
-This theme supports **link posts**, made famous by John Gruber. To use, just add `link: http://url-you-want-linked` to the post's YAML front matter and you're done.
+## **2. ls — List**
+## **3. ls -l (longer version)**
+![Image2](/img/con1.png)
+##### total 138328 files
+##### rwx: read,write,excute
+##### user group public
+##### user | group |  size:bytes | date of file |  name
 
-> And this is how a quote looks.
+## **4. ls -a (list all)**
+##### dot.file
 
-Some [link](http://renyuanz.github.io) can also be shown.
+## **5. pwd (print working directory)**
+##### Home directory:
+![Image3](/img/con2.png)
+
