@@ -7,11 +7,11 @@ comments: true
 ---
 ## **1. Print**
 
-![Image1](/img/mongo1)
+![Image1](img/mongo1.png)
 
 ## **2. Lists**
 
-![Image2](/img/mongo2)
+![Image2](/img/mongo2.png)
 
 ## **3. Lists, Inclusion**
 
