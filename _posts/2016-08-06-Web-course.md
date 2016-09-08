@@ -13,10 +13,15 @@ comments: true
 ## **HTML tags**
 ### 1. tag: <br>
 ### 2. paragraph tag: <p>
+
 > Differnece between <br> and <p>
+
 ##### <br>
+
 ![Image1](/img/web1.png)
+
 ##### <p>
+
 ![Image2](/img/web2.png)
 
 ### 3. doctype tag
