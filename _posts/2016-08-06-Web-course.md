@@ -11,7 +11,9 @@ comments: true
 * css: How it looks;
 
 ## **HTML tags**
+
 ### 1. tag: <br>
+
 ### 2. paragraph tag: <p>
 
 > Differnece between <br> and <p>
