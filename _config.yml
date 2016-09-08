@@ -4,7 +4,7 @@
 ####################################
 #
 title: Wanderlust
-email:
+email: xil154@pitt.edu
 description: A simple blog
 url: https://vagarii.github.io
 
@@ -35,7 +35,7 @@ kramdown:
 owner:
   name: XinLai
   avatar: 
-  job: "A blog made by XinLai"
+  job: "A blog"
   bio: "A simple and awesome blog powered by jekyll."
   email: xil154@pitt.edu
   disqus-shortname:
