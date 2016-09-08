@@ -5,7 +5,7 @@
 #
 title: Wanderlust
 email:
-description: A simple blog made by Barbara Lai 
+description: A simple blog
 url: https://vagarii.github.io
 
 
@@ -14,7 +14,7 @@ url: https://vagarii.github.io
 # Jekyll configuration
 ####################################
 #
-timezone:          USA/Newyork
+timezone:          America/New_York
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
