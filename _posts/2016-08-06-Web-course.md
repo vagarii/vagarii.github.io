@@ -12,11 +12,11 @@ comments: true
 
 ## **HTML tags**
 
-### 1. tag: <br>
+### 1. tag: `<br>`
 
-### 2. paragraph tag: <p>
+### 2. paragraph tag: `<p>`
 
-> Differnece between <br> and <p>
+> Differnece between `<br>` and `<p>`
 
 ##### <br>
 
