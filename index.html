@@ -55,16 +55,16 @@
                 <a href="#top" onclick=$("#menu-close").click();>Home</a>
             </li>
             <li>
-                <a href="#about" onclick=$("#menu-close").click();>About</a>
+                <a href="#services" onclick=$("#menu-close").click();>Capabilities</a>
             </li>
             <li>
                 <a href="#experience" onclick=$("#menu-close").click();>Experience</a>
             </li>
             <li>
-                <a href="#services" onclick=$("#menu-close").click();>Capabilities</a>
+                <a href="#portfolio" onclick=$("#menu-close").click();>Projects</a>
             </li>
             <li>
-                <a href="#portfolio" onclick=$("#menu-close").click();>Projects</a>
+                <a href="#about" onclick=$("#menu-close").click();>About</a>
             </li>
             <li>
                 <a href="#education" onclick=$("#menu-close").click();>Education</a>
@@ -194,64 +194,66 @@
                 <h3 class="section-subheading text-muted"></h3>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
+        <!-- internship -->
+        <div class="col-md-4 col-sm-6 portfolio-item">
+            <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                <div class="portfolio-hover">
+                    <div class="portfolio-hover-content">
+                        <i class="fa fa-plus fa-3x"></i>
                     </div>
-                    <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Portfolio</h4>
-                    <p class="text-muted">Udacity Projects</p>
                 </div>
+                <img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
+            </a>
+            <div class="portfolio-caption">
+                <h4>Rubitection Website</h4>
+                <p class="text-muted">Internship Project</p>
             </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
+        </div>
+        <!-- Full Stack Projects -->
+        <div class="col-md-4 col-sm-6 portfolio-item">
+            <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                <div class="portfolio-hover">
+                    <div class="portfolio-hover-content">
+                        <i class="fa fa-plus fa-3x"></i>
                     </div>
-                    <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Blog Application</h4>
-                    <p class="text-muted">Full Stack Project</p>
                 </div>
+                <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
+            </a>
+            <div class="portfolio-caption">
+                <h4>Blog Application</h4>
+                <p class="text-muted">Full Stack Project</p>
             </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
+        </div>
+        <!-- Angular Projects -->
+        <div class="col-md-4 col-sm-6 portfolio-item">
+            <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                <div class="portfolio-hover">
+                    <div class="portfolio-hover-content">
+                        <i class="fa fa-plus fa-3x"></i>
                     </div>
-                    <img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Rubitection Website</h4>
-                    <p class="text-muted">Internship Project</p>
                 </div>
+                <img src="img/portfolio/techshop.png" class="img-responsive" alt="">
+            </a>
+            <div class="portfolio-caption">
+                <h4>Tech Shop</h4>
+                <p class="text-muted">Tech Store using Angular2.0</p>
             </div>
-            <!--<div class="col-md-4 col-sm-6 portfolio-item">
-                <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
+        </div>
+        <!-- Udacity Projects -->
+        <div class="col-md-4 col-sm-6 portfolio-item">
+            <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                <div class="portfolio-hover">
+                    <div class="portfolio-hover-content">
+                        <i class="fa fa-plus fa-3x"></i>
                     </div>
-                    <img src="img/portfolio/golden.png" class="img-responsive" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Golden</h4>
-                    <p class="text-muted">Website Design</p>
                 </div>
-            </div>-->
-
+                <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+            </a>
+            <div class="portfolio-caption">
+                <h4>Portfolio</h4>
+                <p class="text-muted">Udacity Project</p>
+            </div>
+        </div>
             <!--<div class="col-md-4 col-sm-6 portfolio-item">
                 <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
                     <div class="portfolio-hover">
@@ -285,7 +287,7 @@
     </div>
 </section>
 
-<!-- Portfolio -->
+<!-- Portfolio Modal 1 -->
 <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -300,14 +302,13 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Portfolio</h2>
-                            <p class="item-intro text-muted">Project besed on Udactiy Front End Web Development Online Course</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
-                            <p>This is a project based the knowledge of Udactiy Front End Web Development Online Courseand. It helps me to become much more familiar with JavaScript. The JavaScript I wrote combines my personal information with the HTML5 and CSS3 to generate my resume. The JavaScript techniques covered include manipulating data types (like JSON), building loops and creating functions. I also learned some jQuery DOM manipulation methods.</p>
-                            <p>
-                                <strong>Interested about this project?</strong>You can see the source code on my <a href="https://github.com/vagarii">Github</a> page, or you can view the <a href="https://github.com/vagarii/full-stack-web-project-vagarii">demo</a> here.</p>
+                            <h2>Internship Project</h2>
+                            <p class="item-intro text-muted">Redesign and develope the Rubitection.com</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
+                            <p>This Website based on WordPress. The main tasks id updating the website design with HTML, CSS, JavaScript and jQuery. Updating website database with phpMySql. Also redesigning website adn providing overall support in website development and maintenance.</p>
+                            <strong>Interested about this project?</strong>You can see the source code on my <a href="https://github.com/vagarii/full-stack-web-project-vagarii">Github</a> page, or you can view the <a href="http://rubitection.com/">live website</a> here.</p>
                             <ul class="list-inline">
-                                <li>Date: Dec. 2016</li>
+                                <li>Date: Feb. 2016</li>
                                 <li>Category: Personal Project</li>
                             </ul>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
@@ -366,13 +367,14 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Internship Project</h2>
-                            <p class="item-intro text-muted">Redesign and develope the Rubitection.com</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
-                            <p>This Website based on WordPress. The main tasks id updating the website design with HTML, CSS, JavaScript and jQuery. Updating website database with phpMySql. Also redesigning website adn providing overall support in website development and maintenance.</p>
-                            <strong>Interested about this project?</strong>You can see the source code on my <a href="https://github.com/vagarii/full-stack-web-project-vagarii">Github</a> page, or you can view the <a href="http://rubitection.com/">live website</a> here.</p>
+                            <h2>Tech Shop</h2>
+                            <p class="item-intro text-muted">Project besed on CodeShchool Online Course - <a href="https://www.codeschool.com/courses/shaping-up-with-angular-js">Shaping up with AngularJS</a> </p>
+                            <img class="img-responsive img-centered" src="img/portfolio/techshop_full.png" alt="">
+                            <p>This is a project based the knowledge of besed on CodeShchool Online Course. It helps me to become much more familiar with AngularJS. </p>
+                            <p>
+                                <strong>Interested about this project?</strong>You can see the source code on my <a href="https://github.com/vagarii">Github</a> page, or you can view the <a href="https://vagarii.github.io/techStore/">demo</a> here.</p>
                             <ul class="list-inline">
-                                <li>Date: Feb. 2016</li>
+                                <li>Date: Jun. 2016</li>
                                 <li>Category: Personal Project</li>
                             </ul>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
@@ -383,6 +385,43 @@
         </div>
     </div>
 </div>
+
+<!-- Portfolio Modal 4 -->
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Portfolio</h2>
+                            <p class="item-intro text-muted">Project besed on Udactiy Front End Web Development Online Course</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
+                            <p>This is a project based the knowledge of Udactiy Front End Web Development Online Course. It helps me to become much more familiar with JavaScript. The JavaScript I wrote combines my personal information with the HTML5 and CSS3 to generate my resume. The JavaScript techniques covered include manipulating data types (like JSON), building loops and creating functions. I also learned some jQuery DOM manipulation methods.</p>
+                            <p>
+                                <strong>Interested about this project?</strong>You can see the source code on my <a href="https://github.com/vagarii">Github</a> page, or you can view the <a href="https://github.com/vagarii/full-stack-web-project-vagarii">demo</a> here.</p>
+                            <ul class="list-inline">
+                                <li>Date: Jan. 2016</li>
+                                <li>Category: Personal Project</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
 
 <!-- Callout -->
   <aside class="callout">
